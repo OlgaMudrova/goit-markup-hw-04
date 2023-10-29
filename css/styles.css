@@ -584,4 +584,31 @@ justify-content: center;
 
 
 
+.footer-paragraph-paragraf {
+    display: flex;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+text-align: center;
+color: #FFFFFF;
+}
+
+.workers-button {
+    display: flex;
+gap: 16px;
+margin-top: 16px;
+}
+
+.workers-button-list-icon {
+    display: flex;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    
+}
+
+
     
