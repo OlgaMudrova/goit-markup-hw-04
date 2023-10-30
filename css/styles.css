@@ -623,13 +623,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-paragraph-paragraf {
-    color: var(--WHITE, #FFFFFF);
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.32px;
+    color: #FFFFFF;
 }
 
 .workers-button {
