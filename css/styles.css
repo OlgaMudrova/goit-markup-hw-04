@@ -121,10 +121,7 @@ body {
     
     }
 
-    .menu-link:hover,  
-.menu-link:focus {
-    color: #404bbf;
-}
+
 
 .made-item {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -267,6 +264,15 @@ body {
     cursor: pointer;
    
 }
+
+
+.button-action:hover {
+    background-color: #404BBF;
+}
+
+.button-action:focus {
+    background-color: #404BBF;
+} 
 .button-action {
     min-width: 169px;
     height: 56px;
@@ -285,15 +291,6 @@ margin-top: 48px;
     border: none;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
-.button-action:hover {
-    background-color: #404BBF;
-}
-
-.button-action:focus {
-    background-color: #404BBF;
-} 
-
 
 
     
@@ -346,11 +343,7 @@ margin-top: 48px;
     height: #4d5ae5, #2e2f42;
     margin-left: 100px;
     margin: 24px;
-  }
-
-
-
-
+}
 
 .made-menu-item-name {
     background-color: #FFFFFF;
@@ -360,11 +353,9 @@ margin-top: 48px;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     color: #2E2F42;
-   
 }
 
 .made-menu-item-text {
-    
     background-color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
@@ -388,31 +379,30 @@ margin-top: 48px;
 
 .workers-person {
     background-color: #FFFFFF;
-    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
     
+    
 }
 
 .workers-app {
-    
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .workers-background {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
 .workers-names {
-        text-align: center;
-        margin-bottom: 8px;
-        font-weight: 500;
-        
-    }
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
     
 .workers-head {
-   
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -423,22 +413,20 @@ margin-top: 48px;
     margin-bottom: 72px;
 }
 
-
-
 .workers-positions {
     font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .workers-button {
-display: flex;
-column-gap: 18px;
-justify-content: center;
-align-items: center;
+     display: flex;
+     column-gap: 18px;
+     justify-content: center;
+     align-items: center;
 }
 
 .workers-button-list-icon {
@@ -446,7 +434,7 @@ display: flex;
 flex-direction: row;
 list-style-type: none;
 justify-content: center;
-gap: 24px;
+column-gap: 24px;
 background-color: #4D5AE5;
 fill: #4D5AE5;
 width: 40px;
