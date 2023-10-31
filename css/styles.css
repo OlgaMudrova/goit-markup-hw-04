@@ -58,9 +58,12 @@ address {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 24px;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    
     }
 
+    .container page-header-container {
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);    
+    }
 .page-header-container {
     display: flex;
     justify-content: space-between;
@@ -102,8 +105,9 @@ address {
 .studio {
     display: flex;
     position:relative;
-    color: #2E2F42;
+    color: #E7E9FC;
     display: block;
+    
 }
 
 .studio::after {
@@ -255,6 +259,7 @@ address {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-action:hover {
@@ -369,7 +374,8 @@ address {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
-    flex-wrap: wrap;
+ 
+    
 }
 
 .workers-app {
@@ -409,7 +415,7 @@ address {
 
 .workers-button {
      display: flex;
-     column-gap: 18px;
+     column-gap: 24px;
      justify-content: center;
      align-items: center;
 }
