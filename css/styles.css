@@ -151,7 +151,7 @@ address {
         border-radius: 2px;
         background-color: #404bbf;
     }
-}
+
 .menu-link:hover, 
 .menu-link:focus {
     color: #404bbf;
@@ -443,9 +443,7 @@ address {
     align-items: center;
     justify-content: center;
     width: 16px;
-    
-    background: #4D5AE5;
-
+    background: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -457,7 +455,7 @@ address {
 
 .portfolio {
     padding: 120px 0 120px 0;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    
 }
 
 .portfolio-images-title {
@@ -478,6 +476,7 @@ address {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .portfolio-caption {
@@ -532,6 +531,7 @@ address {
     letter-spacing: 0.02em;
     width: 100%;
     height: 100%;
+    transform: translateY(100%); 
     top: 0;
     padding: 40px 32px;
     background-color: #4d5ae5;
@@ -623,13 +623,12 @@ address {
 .workers-button {
     display: flex;
     gap: 16px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .workers-button-list-icon {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 40px;
     height: 40px;
+    
 }
 
 .button-liton-liton {
@@ -639,7 +638,8 @@ address {
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .button-liton-liton:hover,
