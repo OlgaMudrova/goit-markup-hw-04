@@ -372,10 +372,10 @@ address {
 }
 
 .workers-person {
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    background-color: #FFFFFF; 
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
  
     
 }
@@ -417,7 +417,7 @@ address {
 
 .workers-button {
      display: flex;
-     column-gap: 24px;
+     gap: 24px;
      justify-content: center;
      align-items: center;
 }
@@ -443,7 +443,9 @@ address {
     align-items: center;
     justify-content: center;
     width: 16px;
-    background-color: #404bbf;
+    
+    background: #4D5AE5;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -513,7 +515,7 @@ address {
     border-right: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-top: none;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+   
 }
 
 .portfolio-portfolio {
