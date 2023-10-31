@@ -109,24 +109,7 @@ address {
     color: #404bbf;
    
 }
-.studio {
-    display: flex;
-    position:relative;
-    background: #404BBF;
-    display: block;
-    
-}
 
-.studio::after {
-    display: block;
-    position:absolute;
-    content: "";
-    width: 100px;
-    height: 4px;
-    bottom: -1px;
-    border-radius: 2px;
-    background-color: #404bbf;
-}
 .menu-link-link  {
     font-family: Roboto;
     font-size: 16px;
@@ -148,7 +131,26 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    .studio {
+        
+        position:relative;
+        color: #404BBF;
+        
+        
+    }
+    
+    .studio::after {
+        display: block;
+        position:absolute;
+        content: "";
+        width: 100px;
+        height: 4px;
+        bottom: -1px;
+        border-radius: 2px;
+        background-color: #404bbf;
+    }
 }
 .menu-link:hover, 
 .menu-link:focus {
