@@ -48,7 +48,7 @@ address {
 }
 
 
-                    /*<!--PAGE HEADER-->*/
+/*<!--PAGE HEADER-->*/
 
 .page-header {
     width: 1440px;
@@ -178,6 +178,7 @@ address {
 
 .menu-contakt:hover {
     color: #404BBF;
+
 }
 
 .menu-contakt:focus {
@@ -214,7 +215,7 @@ address {
     color: var(--hover-color);
 }
 
-                    /*<!-- HERO SECTION 1-->*/
+ /*<!-- HERO SECTION 1-->*/
 
 .section {
     background: #2e2f42;
@@ -282,7 +283,7 @@ address {
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-                    /*<!--OUR BENEFITS 2-->*/
+/*<!--OUR BENEFITS 2-->*/
 
 .made-benefits {
     padding-top: 120px;
@@ -354,7 +355,7 @@ address {
 }
 
 
-                     /*<!--INGREDIENTS SECTION 3-->*/
+/*<!--INGREDIENTS SECTION 3-->*/
 
 .workers-menu {
     display: flex;
@@ -442,7 +443,7 @@ address {
     fill: #F4F4FD;
 }
 
-                     /*<!--PAGE PORTFOLIO 4-->*/
+/*<!--PAGE PORTFOLIO 4-->*/
 
 .portfolio {
     padding: 120px 0 120px 0;
@@ -532,7 +533,7 @@ address {
     transform: translate(0%);
 }
 
-                     /*<!--PAGE FOOTER-->*/
+ /*<!--PAGE FOOTER-->*/
 
 .footer-conteinet {
     display: flex;
