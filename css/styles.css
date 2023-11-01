@@ -629,6 +629,11 @@ gap: 24px;
     height: 40px;
 }
 
+.workers-workers-button {
+    display: flex; 
+    gap: 16px; 
+}
+
 .button-button-liton-liton {
      display: flex;
      width: 100%;
