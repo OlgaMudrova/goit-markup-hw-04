@@ -412,9 +412,9 @@ address {
 }
 
 .workers-button {
-   display: flex;
-   justify-content: center;
-   gap: 24px; 
+display: flex;
+justify-content: center;
+gap: 24px; 
 }
 
 .workers-button-list-icon-icon {
@@ -626,7 +626,7 @@ address {
 
 .workers-button {
     
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 16px;
 }
