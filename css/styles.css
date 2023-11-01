@@ -613,6 +613,11 @@ address {
     height: 24px;
     margin-bottom: 16px;
 }
+.workers-button {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+}
 
 .footer-paragraph-paragraf {
     font-family: Roboto;
