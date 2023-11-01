@@ -625,7 +625,9 @@ gap: 16px;
 }
 
 .workers-button {
-display: inline-flex;
+    
+    display: flex;
+    
 align-items: flex-start;
 gap: 16px;
 }
