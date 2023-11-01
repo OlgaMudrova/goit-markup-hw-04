@@ -622,10 +622,8 @@ address {
     color: #FFFFFF;
 }
 
-.workers-button {
-    display: flex;
-    gap: 16px;
-}
+
+
 
 .workers-button-list-icon {
     width: 40px;
