@@ -403,7 +403,7 @@ address {
 }
 
 .workers-positions {
-    font-size: 24px;
+    
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -561,7 +561,7 @@ text-align: left;
 
  /*<!--PAGE FOOTER-->*/
 
-.footer-conteinet container {
+.footer-block .footer-conteinet  {
     display: flex;
     align-items: baseline;
 }
@@ -620,10 +620,6 @@ text-align: left;
     display: inline-block;
     height: 24px;
     margin-bottom: 16px;
-}
-
-.container-container {
-
 }
 
 .footer-paragraph-paragraf {
