@@ -491,11 +491,22 @@ gap: 24px;
     margin-top: 8px;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: left;
     color: #2E2F42;
     background-color: #ffffff;
     margin-bottom: 8px;
+
+}
+
+.portfolio-text-text {
+  font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 
 .portfolio-text {
@@ -611,6 +622,9 @@ gap: 24px;
     margin-bottom: 16px;
 }
 
+.container-container {
+
+}
 
 .footer-paragraph-paragraf {
     font-family: Roboto;
